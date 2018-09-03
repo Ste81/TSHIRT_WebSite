@@ -105,7 +105,15 @@ body {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+  
+  /* Home Page */
+   .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+    margin-top: 15px;
+    /*border: 1px solid #000;*/
+  }
+ /* End Home Page */
 }
 
 /********** Medium devices only **********/
@@ -119,6 +127,14 @@ body {
     background-size: 100%;
   }
   /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+    margin-top: 15px;
+  }
+  /* End Home Page */
 }
 
 /********** Small devices only **********/
@@ -132,6 +148,14 @@ body {
     background-size: 100%;
   }*/
   /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+    margin-top: 15px;
+  }
+  /* End Home Page */
 }
 
 /********** Extra small devices only **********/
@@ -187,4 +211,40 @@ body {
   }
   /* End Header */
 
+   /* Home Page */
+  .container .jumbotron {
+    margin-top: 15px;
+    padding: 0;
+  }
+
 }
+
+/********** Super Small small devices only **********/
+@media (max-width: 358px) {
+  /* Header */
+
+  #logo-img {
+    background: url('../images/yeoman-logo.png') no-repeat;
+    width: 90px;
+    height: 90px;
+    margin: 10px 0px -60px -20px;
+    background-size: 100%;
+  }
+
+  /*.hidden-ss {
+    display: none !important;
+  }
+*/
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 10px;
+  }
+    
+  .visible-ss {
+    display: block !important;
+  }
+
+/* End Header */
+
+}
+
